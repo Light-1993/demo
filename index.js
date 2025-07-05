@@ -10,7 +10,7 @@ app.get('/', (req, res) => {
 });
 
 app.get('/light', (req, res) => {
-  res.send('Yagami Light');
+  res.send('Yagami Dark');
 });
 
 app.listen(port, () => {
